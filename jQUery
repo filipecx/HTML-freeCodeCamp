@@ -1,0 +1,31 @@
+tudo no jQUery começa com $
+Função para fazer o jQuery carregar junto ao HTML, e não antes:
+$(document).ready(function() {
+    $("button").addClass("animated bounce");(Faz o botão balançar)
+    $(".well").addClass("animated shake");(Treme tudo)
+    $("#target3").addClass("animated fadeOut");(dá um fade)
+  });
+  
+  pode remover classes com:
+  $("button").removeClass("btn-default");
+  
+  alterar o CSS por jQuery:
+  $("button").css("color", "red");
+  
+  desabilitar botão html:
+  $("button").prop("disabled", true);
+  
+  mudar elementos HTML:
+  $("button").html("<em>botaaao</em> ou com .text(muda só o texto)
+  
+  move elementos:
+  $("#target4").appendTo("#left-well");
+  
+  copia elementos:
+  $("#target2").clone().appendTo("#right-well");
+  
+  caracteristicas do pai:
+  $("#target1").parent().css("background-color", "red");
+  
+  caracteristicas dos filhos:
+  $("#right-well").children().css("color", "orange");
