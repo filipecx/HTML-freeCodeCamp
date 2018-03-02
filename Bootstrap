@@ -29,4 +29,18 @@ Deixa todo o conteúdo alinhado ao meio
   </footer>
   
   RODAPE
-      
+  
+ BARRA DE NAVEGAÇÃO FIXA 
+<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header col-xs-12">
+      <a class="navbar-brand" href="#">Filipe CX</a>
+    </div>
+    <ul class="nav navbar-nav text-align-right">
+      <li class="active"><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+   
+  </div>
+</nav>
